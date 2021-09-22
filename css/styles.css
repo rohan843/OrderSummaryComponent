@@ -25,6 +25,63 @@
   border-radius: 25px;
 }
 
+.MusicIcon{
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  /* float: left; */
+}
+
+.Change{
+  display: inline;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: hsl(245, 75%, 52%);
+}
+
+.Change a{
+  color: hsl(245, 75%, 52%);
+}
+
+.CostCard{
+  position: relative;
+  /* text-align: center; */
+  padding: 15px 10px;
+  background-color: hsl(225, 100%, 98%);
+  width: 75%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.SubHeadings{
+  display: inline;
+  color: hsl(223, 47%, 23%);
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: bolder;
+  font-size: 13px;
+  /* position: absolute; */
+}
+
+.SubText{
+  display: inline;
+  color: hsl(224, 23%, 55%);
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.PricePane{
+  position: relative;
+  text-align: left;
+  display: inline;
+  right: 20%;
+  /* top: 50%;
+  transform: translateY(-50%); */
+}
+
 .MessageDiv{
   width: 65%;
   margin: 0 auto;
